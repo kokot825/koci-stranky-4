@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:wght@100..900&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: "dm sans";
+    color: rgb(117, 117, 117);
+    
+}
+
+.test {
+    z-index: -1;
+    position: relative;
+    bottom: 6.25rem;
+}
+
+
+html,body {
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+
+.nadpis {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.15);
+   
+}
+
+.loga {
+    padding-left: 2rem;
+    display: flex;
+    flex-shrink: 0;
+    align-self: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 10rem;
+    padding: 0.5rem;
+}
+
+.img {
+    display:inline;
+    width: 15rem;
+    flex-shrink: 0;
+    align-self: center;
+    padding: 1rem;
+
+}
+
+.nadpis1 {
+    
+}
+
+.odkazy  {
+    display: inline;
+    padding: 0rem;
+}
+
+.mezi li {
+    display: inline;
+    padding: 1rem;
+}
+
+.li {
+    padding: 10rem;
+}
+
+.ne {
+    padding: 3rem;
+}
+
+.mezi {
+    display: inline;
+}
+
+.mezi li:hover {
+    background-color: rgba(255, 255, 255, 0.5)
+    
+}
+
+.odkazy { 
+   display: flex;
+   list-style-type: none;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: 1.25rem;
+   padding-right: 2rem;
+   text-decoration: none;
+   font-weight: 500;
+   
+}
+
+.odkazy a {
+    text-decoration: none;
+}
+
+.logoo {
+    background-color: rgba(161, 161, 161, 0);
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 34.375rem;
+    }
+
+.kont {
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
+    bottom: 120rem;
+}    
+
+.text {
+    color: rgb(160, 160, 160);
+    font-size: 2.5rem;
+    text-align: center;
+}

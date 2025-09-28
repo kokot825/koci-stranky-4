@@ -1,0 +1,450 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:wght@100..900&family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/*ALL*/
+* {
+    font-family: "dm sans";
+    color: rgb(117, 117, 117);
+    
+}
+
+html,body {
+    margin: 0rem;
+    padding: 0rem;
+    border: 0rem;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+/* HEADER */
+.header {
+    z-index: 10;
+    
+}
+
+.nevim {
+    z-index: 99999;
+    
+}
+
+.par {
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 0vw 0vw 0vw;
+}
+
+.nevim {
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nadpis {
+    z-index: 99999;    
+    top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(obrazky/Layer\ 3.png);
+    background-color: rgb(136, 136, 136);
+    background-blend-mode: multiply;
+    
+}
+
+.boxx {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 0vw;
+}
+
+.parr {
+    width: 1vw;
+    z-index: 1;
+    align-items: center;
+}
+
+.oballl {
+    z-index: 1;
+    padding: 0vw 1vw 0vw 1vw;
+    display: flex;
+    align-items: center;
+}
+
+.oballll {
+    z-index: 1;
+    margin-right: 2.3vw;
+    padding: 0vw 1vw 0vw 1vw;
+    display: flex;
+    align-items: center;
+    padding-right: 2.8vw;
+}
+
+.negr {
+    align-content: center;
+    z-index: 2;
+    padding-right: 1vw;
+    font-size: 0.8vw;
+    font-weight: 700;
+}
+
+.ne {
+    padding: 0.75vw 1vw 0.75vw 1vw;
+    text-decoration: none;
+}
+
+.a {
+    padding: 5rem;
+}
+
+.ne:hover {
+    background-blend-mode: screen;
+    background-color: rgba(173, 173, 173, 0.15);
+    position: relative;
+    bottom: 0.15vw;
+    background-blend-mode: screen;
+    transition: opacity 0.4s ease-in-out, background-color 0.4s ease-in-out;
+    transition-property: opacity, background-color;
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0s;
+    transition-behavior: normal, normal;
+}
+
+.loga {
+    z-index: 2;
+    
+    display: flex;
+    flex-shrink: 0;
+    align-self: center;
+    
+    
+    
+}
+
+.logo {
+    width: 7vw;
+    padding: 1vw 0vw 1vw 1vw;
+}
+
+.img {
+    display:inline;
+    width: 10vw;
+    flex-shrink: 0;
+    align-self: center;
+    padding-left: 0.3vw;
+}
+
+.neyyy {
+    display: inline;
+
+    text-decoration: none;
+    font-size: 0.9vw;
+}
+
+/*main content*/
+
+.nasesluzby {
+    color: rgb(177, 88, 88);
+    text-align: center;
+    font-size: 3vw;
+    background-image: url(obrazky/hkbj-Recoverexxxxxxxxxxxxxxx.png);
+    background-size: 100%;
+    background-position: 0vw -15vw;
+    padding: 7vw 0vw;
+    
+}
+
+.nene {
+    color: rgb(214, 214, 214);
+    margin: 5vw 0vw 0vw 0vw;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    background-color: rgb(41, 41, 41);
+}
+
+.parrr {
+    display: block;
+    padding: 1vw 0vw;
+}
+
+.kontaktypismoo {
+    color: rgb(167, 167, 167);
+    margin: 0vw;
+    font-size: 1.5vw;
+    padding: 5vw 0vw 1vw 0vw;
+    font-weight: 1000;
+    border-bottom: solid 3px rgb(212, 212, 212);
+    width: 35vw;
+}
+
+.kontaktypismooo {
+    color: rgb(167, 167, 167);
+    padding: 1vw 0vw;
+    margin: 0vw;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.kontaktypismoooo {
+    color: rgb(167, 167, 167);
+    padding: 0.1vw 0vw;
+    margin: 0vw;
+    font-weight: 1000;
+    font-size: 1vw;
+}
+
+
+.kontaktypismo {
+    color: rgb(167, 167, 167);
+    padding: 0.1vw 0vw;
+    margin: 0vw;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.oballle {
+    display: flex;
+    align-items: center;
+    padding: 0.1vw 0vw;
+}
+
+.nev {
+    color: rgb(167, 167, 167);
+    font-size: 1vw;
+    font-weight: 500;
+    padding-left: 0.5vw;
+}
+
+.kontaktypismoe {
+    color: rgb(167, 167, 167);
+    font-style: italic;
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0vw;
+    padding: 1vw 0vw 5vw 0vw;
+}
+
+.flexx {
+    display: flex;
+    
+    justify-content: space-evenly;
+    background-color: rgb(41, 41, 41);
+}
+
+.imput {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+
+.contact {
+    border: none;
+    outline: none;
+    height: 2vw;
+    font-size: 1vw;
+    background-color: rgb(54, 54, 54);
+    color: rgb(214, 214, 214);
+    border-radius: 0.25vw;
+    font-weight: 500;
+    padding-left: 1vw;
+}
+
+.contactt {
+    border: none;
+    outline: none;
+    height: 4vw;
+    font-size: 1vw;
+    background-color: rgb(54, 54, 54);
+    color: rgb(214, 214, 214);
+    border-radius: 0.25vw;
+    font-weight: 500;
+    padding-left: 1vw;
+}
+
+.contacttt {
+    border: none;
+    outline: none;
+    height: 4vw;
+    font-size: 1vw;
+    background-color: rgb(54, 54, 54);
+    color: rgb(214, 214, 214);
+    border-radius: 0.25vw;
+    font-weight: 500;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+
+.odeslat {
+    border: none;
+    outline: none;
+    width: 5vw;
+    height: 3vw;
+    font-size: 1vw;
+    background-color: rgb(54, 54, 54);
+    color: rgb(214, 214, 214);
+    border-radius: 0.25vw;
+    font-weight: 500;
+    padding-left: auto;
+}
+
+.odeslatt {
+    align-self: end;
+}
+
+.f:focus {
+    border: 2px solid rgb(68, 68, 68);
+}
+
+.placeholder {
+    color: white;
+}
+
+
+
+
+/*FOOTER*/
+.nadpisx {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(obrazky/hkbj-Recoverednnnnnnnnnnnnnn.png);
+    background-blend-mode: multiply;
+    background-color: rgb(87, 87, 87); 
+
+}
+
+.logax {
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: start;
+    flex-shrink: 0;
+
+    padding: 1.5vw 0vw 0vw 16.6vw;
+
+}
+
+.imgx {
+    display:inline;
+    width: 10vw;
+    flex-shrink: 0;
+    align-self: center;
+    padding-bottom: 0.45vw;
+}
+
+.logox {
+    width: 6vw;
+    padding-bottom: 0.45vw;
+}
+
+.textík {
+    padding-top: 4vw;
+    padding-left: 3vw;
+    font-size: 0.5vw;
+}
+
+.obal {
+    display: flex;
+    font-size: 1vw;
+}
+
+.ico {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5vw;
+    justify-content: flex-end;
+}
+
+.nezz {
+    padding: 1.25vw 1vw 1.9vw 1vw;
+}
+
+.negrx {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 2;
+    padding-right: 16.6vw;
+}
+
+.negrxx {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 2;
+    padding-right: 5vw;
+    padding-bottom: 2vw;
+}
+
+.nex {
+    padding: 1.5vw 0vw 0.25vw 0vw;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1vw;
+    border-bottom: 2px solid rgb(116, 116, 116);
+}
+
+.nexxx {
+    padding: 1.5vw 9vw 0.25vw 0vw;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1vw;
+    border-bottom: 2px solid rgb(116, 116, 116);
+}
+
+.oball {
+    display: flex;
+    align-items: center;
+    padding: 1vw 0vw 0vw 0vw;
+}
+
+.neyy {
+    padding: 0vw 0vw 0vw 1vw;
+    
+    font-size: 0.9vw;
+}
+
+.neyyyyy {
+    padding: 0vw 0vw 0vw 1vw;
+    font-weight: 700;
+    font-size: 0.8vw;
+}
+
+.telefon {
+    width: 1vw;
+    align-self: center;
+}
+
+.ney {
+    display: inline;
+    padding: 1.5vw 1vw 1.5vw 1vw;
+    text-decoration: none;
+}
+
+.nez {
+    padding: 0.75vw 1vw 1.5vw 1vw;
+    text-decoration: none;
+}
+
+.nexx {
+    padding: 1.5vw 2vw 0.25vw 0vw;
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: 1vw;
+    border-bottom: 2px solid rgb(116, 116, 116);
+}
+
+.neyyyy {
+    font-size: 0.9vw;
+    display: inline;
+
+    text-decoration: none;
+}
+
