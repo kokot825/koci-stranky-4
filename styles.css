@@ -121,8 +121,9 @@ html,body {
 }
 
 .logo {
-    max-width: 420px;
-    width: 8.4rem;
+    
+    width: 100%;
+    max-width: 8.4rem;
     padding: 1.2rem 0vw 1.2rem 1.2rem;
 }
 
@@ -478,4 +479,5 @@ html,body {
 
     text-decoration: none;
 }
+
 
